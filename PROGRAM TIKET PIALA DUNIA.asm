@@ -21,7 +21,7 @@ beli4   DB 0dh, 0ah, "Pembelian Berhasil...", '$'
 beli5   DB 0dh, 0dh, 0dh, 0ah, 0dh, 0ah, "========================= PEMBELIAN SELESAI =====================", 0dh, 0ah
         DB "Silahkan aktifkan paket anda", 0dh, 0ah, "dan selamat menonton piala dunia", '$'
 
-beli6   DB 0dh, 0dh, 0dh, 0ah, 0dh, 0ah, "Ingin Meminjam Barang Lain ? (Y, N)", '$'
+beli6   DB 0dh, 0dh, 0dh, 0ah, 0dh, 0ah, "Ingin Membeli paket lain ? (Y, N)", '$'
 beli7   DB 0dh, 0dh, 0dh, 0ah, 0dh, 0ah, "Terimakasih Telah Menggunkan Aplikasi Ini..", '$'
 error   DB 0dh, 0ah, "Masukan Kode Dengan Benar", '$'
 msg1    DB 0dh, 0ah, 0dh, 0ah, "====== PaketVIP ======", 0dh, 0ah, "Harga 1 Tiket VIP Rp.2.000.000,00", 0dh, 0ah, "Harap Lakukan Pembayaran Segera!!!" , '$'
